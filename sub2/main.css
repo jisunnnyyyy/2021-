@@ -1,0 +1,143 @@
+header {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100px;
+
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+header {
+    width: 100%;
+    height: 100px;
+    z-index: 1;
+    box-shadow: 0 5px 8px rgb(187, 187, 187) ;
+    position: fixed;
+    z-index: 1;
+}
+
+nav {
+    width: 1280px;
+    height: 100px;
+}
+
+.logo img{
+    width: 110px;
+    margin-left: 660px;
+    float: left;
+}
+
+.sub1 img {
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.sub2 img {
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+.sub3 img {
+    width: 100px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    float: left;
+}
+
+nav ul li {
+    display: inline;
+    float: left;
+    text-decoration: none;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background-color: #dcf19d;
+    text-align: center;
+}
+
+.banner h2 {
+    margin-top: 0px;
+    font-size: 40px;
+    color: rgb(70, 107, 70);
+    font-family: 'Helvetica Neue';
+    font-weight: lighter;
+    padding-top: 250px;
+}
+
+.sasa h1 {
+    font-size: 25px;
+    color: rgb(70, 107, 70);
+    font-weight: lighter;
+    font-family: 'Helvetica Neue';
+    text-align:center;
+    margin-top: 170px;
+}
+
+.sasa h2 {
+    font-size: 20px;
+    color: rgb(73, 73, 73);
+    font-weight: lighter;
+    font-family: 'Helvetica Neue';
+    text-align: center;
+    margin-top: 60px;
+}
+
+.highlight {
+    display: inline;
+    box-shadow: inset 0 35px 0 #eff7dc; 
+    line-height: 23px;
+    box-sizing: border-box;
+    /*-10px은 highlight의 두께*/
+}
+
+.sasa h3 {
+    font-size: 22px;
+    color: rgb(70, 107, 70);
+    font-weight:lighter;
+    font-family: 'Helvetica Neue';
+    text-align:center;
+    margin-top: 60px;
+}
+
+.ffjj {
+    margin-left: 640px;
+    margin-top: 90px;
+}
+
+.gggt h3 {
+    font-size: 15px;
+    color: rgb(34, 34, 34);
+    font-weight: lighter;
+    font-family: 'Helvetica Neue';
+    text-align: center;
+    margin-top: 0px;
+}
+
+.ghgh h6 {
+    font-size: 21px;
+    color: rgb(70, 107, 70);
+    font-weight: lighter;
+    font-family: 'Helvetica Neue';
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    height: 300px;
+    margin: 0;
+    padding: 150px ;
+    box-sizing: border-box;
+    color: #9b9b9b;
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: 'Helvetica Neue';
+}
+
